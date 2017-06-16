@@ -9,6 +9,7 @@ namespace AsioWrapper
     public:
         AsioSocket(boost::asio::io_service& aIoService) :
             mIoService(aIoService)
+          , mSocket(nullptr)
         {
             
         }
